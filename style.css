@@ -1,0 +1,113 @@
+.header{
+    background:url("home bg.jpg");
+    height:100vh;
+}
+
+.nav{
+    width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+ul{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+
+ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 0.25em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+
+ul li a:hover{
+    border-bottom: 3px solid #fff;
+}
+
+.intro{
+    position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+    font-family:sans-serif;
+    color:white;
+}
+
+.corona_what{
+    display:flex;
+    padding: 100px 150px 150px 100px;
+    position:center;
+    text-align:center;
+    background: radial-gradient(#2c1e31,#000);
+    color:#9c9c9c;
+    font-family:sans-serif;
+    border:4px double #9c9c9c;
+    font-size:larger;
+}
+
+.corona-what{
+    display:flex;
+    text-align:center;
+    position:center;
+    background: radial-gradient(#30202b,#000);
+    color:#cfcfcf;
+    padding: 100px 150px 150px 100px;
+    font-family:sans-serif;
+    border:4px double #9c9c9c;
+    font-size:larger;
+    justify-content:space-evenly;
+}
+
+.why-is-covid{
+    color:#dadada
+    padding:0px 0px 0px 20px;
+}
+
+.what-is-covid{
+    padding:0px 20px 0px 0px;
+}
+
+.prev-soc{
+    display:flex;
+    flex:wrap;
+
+}
+
+.soc-mask{
+    background: 75% url("other\ bg.jpeg")
+}
+
+.prev{
+    padding: 100px 150px 150px 100px;
+    text-align:center;
+    background: radial-gradient(#311e20,#000);
+    color:#c7c7c7;
+    font-family:sans-serif;
+    border:4px double #9c9c9c;
+    font-size:larger;
+    width:300%;
+}
+
+.soc{
+    padding: 100px 150px 150px 100px;
+    text-align:center;
+    color:#ffffff;
+    font-family:sans-serif;
+    border-top:4px double #9c9c9c;
+    font-size:larger;
+}
+
+.mask{
+    padding: 100px 150px 150px 100px;
+    text-align:center;
+    color:#fff;
+    font-family:sans-serif;
+    font-size:larger;
+}
